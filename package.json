@@ -1,0 +1,24 @@
+{
+  "name": "cli-azure-document-intelligence-pdf",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ai-form-recognizer": "^5.0.0",
+    "@mozilla/readability": "^0.5.0",
+    "adm-zip": "^0.5.10",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "fast-glob": "^3.3.2",
+    "jsdom": "^23.0.1",
+    "p-map": "^7.0.0",
+    "pdf-lib": "^1.17.1"
+  }
+}
